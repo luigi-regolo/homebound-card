@@ -1,12 +1,12 @@
 /*!
- * Homebound Card 1.0
+ * Homebound Card 1.1
  * Copyright (c) 2026 luigi-regolo
  * Distributed under GPL-3.0-only.
  */
 (() => {
   'use strict';
 
-  const VERSION = '1.0';
+  const VERSION = '1.1';
   const TAG = 'homebound-card';
   const EDITOR_TAG = 'homebound-card-editor';
   if (customElements.get(TAG)) return;
