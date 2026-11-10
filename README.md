@@ -49,6 +49,8 @@ For Home Assistant 2026.11 and later.
 4. Reload your dashboard if necessary.
 5. Add **Homebound Card** to your dashboard and configure it using the visual editor.
 
+[![Open Marketplace repository on My Home Assistant](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=luigi-regolo&repository=homebound-card&category=plugin)
+
 ### HACS
 
 For Home Assistant versions before 2026.11.
