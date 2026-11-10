@@ -1,6 +1,6 @@
 # Homebound Card
 
-[![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5?style=flat-square)](https://my.home-assistant.io/redirect/hacs_repository/?owner=luigi-regolo&repository=homebound-card&category=plugin)
+[![Home Assistant Marketplace](https://img.shields.io/badge/Home%20Assistant-Marketplace-41BDF5?style=flat-square)](#marketplace-recommended)
 [![Release](https://img.shields.io/github/v/release/luigi-regolo/homebound-card?label=Release&style=flat-square)](https://github.com/luigi-regolo/homebound-card/releases/latest)
 [![License: GPL-3.0-only](https://img.shields.io/badge/license-GPL--3.0--only-blue?style=flat-square)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/luigi-regolo/homebound-card?style=flat-square)](https://github.com/luigi-regolo/homebound-card/stargazers)
