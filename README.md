@@ -1,6 +1,6 @@
 # Homebound Card
 
-[![HACS Repository](https://img.shields.io/badge/HACS-Repository-41BDF5?style=flat-square)](https://my.home-assistant.io/redirect/hacs_repository/?owner=luigi-regolo&repository=homebound-card&category=plugin)
+[![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5?style=flat-square)](https://my.home-assistant.io/redirect/hacs_repository/?owner=luigi-regolo&repository=homebound-card&category=plugin)
 [![Release](https://img.shields.io/github/v/release/luigi-regolo/homebound-card?label=Release&style=flat-square)](https://github.com/luigi-regolo/homebound-card/releases/latest)
 [![License: GPL-3.0-only](https://img.shields.io/badge/license-GPL--3.0--only-blue?style=flat-square)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/luigi-regolo/homebound-card?style=flat-square)](https://github.com/luigi-regolo/homebound-card/stargazers)
@@ -39,18 +39,34 @@ The card is read-only: it does not send commands to Home Assistant. Missing data
 
 ## Installation
 
-### HACS — Custom repository
+### Marketplace (Recommended)
+
+For Home Assistant 2026.11 and later.
+
+1. Open **Settings → Marketplace** in Home Assistant.
+2. Search for **Homebound Card**.
+3. Select it and install it.
+4. Reload your dashboard if necessary.
+5. Add **Homebound Card** to your dashboard and configure it using the visual editor.
+
+### HACS
+
+For Home Assistant versions before 2026.11.
+
+1. Open **HACS** in Home Assistant.
+2. Search for **Homebound Card**.
+3. Select it and click **Download**.
+4. Reload your dashboard if necessary.
+5. Add **Homebound Card** to your dashboard and configure it using the visual editor.
+
+[![Open Homebound Card in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=luigi-regolo&repository=homebound-card&category=plugin)
+
+### Alternative: HACS custom repository
 
 1. Open **HACS** in Home Assistant and select **Custom repositories** from the menu.
 2. Enter `https://github.com/luigi-regolo/homebound-card`.
 3. Select **Dashboard** as the repository type and add it.
 4. Find **Homebound Card** in HACS and click **Download**.
-5. Reload your dashboard if necessary.
-6. Add **Homebound Card** to your dashboard and configure it using the visual editor.
-
-[![Open Homebound Card in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=luigi-regolo&repository=homebound-card&category=plugin)
-
-The repository contains `hacs.json` and the distributable JavaScript module `dist/homebound-card.js`.
 
 ### Manual installation
 
