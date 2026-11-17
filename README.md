@@ -1,6 +1,6 @@
 # Homebound Card
 
-[![Home Assistant Marketplace](https://img.shields.io/badge/Home%20Assistant-Marketplace-41BDF5?style=flat-square)](#marketplace-recommended)
+[![Marketplace](https://img.shields.io/badge/Marketplace-41BDF5?style=flat-square)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=luigi-regolo&repository=homebound-card&category=plugin)
 [![Release](https://img.shields.io/github/v/release/luigi-regolo/homebound-card?label=Release&style=flat-square)](https://github.com/luigi-regolo/homebound-card/releases/latest)
 [![License: GPL-3.0-only](https://img.shields.io/badge/license-GPL--3.0--only-blue?style=flat-square)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/luigi-regolo/homebound-card?style=flat-square)](https://github.com/luigi-regolo/homebound-card/stargazers)
@@ -41,34 +41,29 @@ The card is read-only: it does not send commands to Home Assistant. Missing data
 
 ### Marketplace (Recommended)
 
-For Home Assistant 2026.11 and later.
+Install Homebound Card directly from the default Marketplace catalog in Home Assistant 2026.11 or newer.
 
-1. Open **Settings → Marketplace** in Home Assistant.
-2. Search for **Homebound Card**.
-3. Select it and install it.
-4. Reload your dashboard if necessary.
-5. Add **Homebound Card** to your dashboard and configure it using the visual editor.
+[![Open Homebound Card in the Marketplace](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=luigi-regolo&repository=homebound-card&category=plugin)
 
-[![Open Marketplace repository on My Home Assistant](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=luigi-regolo&repository=homebound-card&category=plugin)
+1. Go to **Settings** > **Marketplace**.
+2. The first time, accept the notice about community content.
+3. Use **Search** to find **Homebound Card**.
+4. Open the repository page and select **Install**.
+5. Check the version in the dialog and select **Install** again to confirm.
+6. Reload your browser to load the new resource.
+7. Add **Homebound Card** to your dashboard and configure it using the visual editor.
 
-### HACS
+### Alternative: Custom repository
 
-For Home Assistant versions before 2026.11.
+If you prefer to add the repository manually:
 
-1. Open **HACS** in Home Assistant.
-2. Search for **Homebound Card**.
-3. Select it and click **Download**.
-4. Reload your dashboard if necessary.
-5. Add **Homebound Card** to your dashboard and configure it using the visual editor.
+1. Go to **Settings** > **Marketplace**.
+2. In the upper-right corner, select **Add from link**.
+3. Under **GitHub link**, enter `https://github.com/luigi-regolo/homebound-card`.
+4. Select **Add**. If the type is not detected, select **Dashboard** under **Type** and select **Add** again.
+5. Open **Homebound Card** and select **Install**.
 
-[![Open Homebound Card in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=luigi-regolo&repository=homebound-card&category=plugin)
-
-### Alternative: HACS custom repository
-
-1. Open **HACS** in Home Assistant and select **Custom repositories** from the menu.
-2. Enter `https://github.com/luigi-regolo/homebound-card`.
-3. Select **Dashboard** as the repository type and add it.
-4. Find **Homebound Card** in HACS and click **Download**.
+Adding a repository from a link requires a connected GitHub account. The Marketplace guides you through the connection when needed.
 
 ### Manual installation
 
