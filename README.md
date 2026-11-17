@@ -53,18 +53,6 @@ Install Homebound Card directly from the default Marketplace catalog in Home Ass
 6. Reload your browser to load the new resource.
 7. Add **Homebound Card** to your dashboard and configure it using the visual editor.
 
-### Alternative: Custom repository
-
-If you prefer to add the repository manually:
-
-1. Go to **Settings** > **Marketplace**.
-2. In the upper-right corner, select **Add from link**.
-3. Under **GitHub link**, enter `https://github.com/luigi-regolo/homebound-card`.
-4. Select **Add**. If the type is not detected, select **Dashboard** under **Type** and select **Add** again.
-5. Open **Homebound Card** and select **Install**.
-
-Adding a repository from a link requires a connected GitHub account. The Marketplace guides you through the connection when needed.
-
 ### Manual installation
 
 1. Download `homebound-card.js` from the latest GitHub Release.
